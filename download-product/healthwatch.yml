@@ -3,4 +3,4 @@ pivnet-file-glob: "p-healthwatch-*.pivotal"
 pivnet-product-slug: p-healthwatch
 product-version-regex: ^1\.8\..*$
 blobstore-bucket: ((bucket))
-stemcell-iaas: google
+# stemcell-iaas: google

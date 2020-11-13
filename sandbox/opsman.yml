@@ -1,0 +1,14 @@
+opsman-configuration:
+  gcp:
+    boot_disk_size: 100
+    custom_cpu: 4
+    custom_memory: 16
+    gcp_service_account: ((opsman-service-account-key))
+    project: pal4pe-1109-daniel-sheldon
+    public_ip: 34.123.57.0
+    region: us-central1
+    ssh_public_key: ((config-repo-key.public_key))
+    tags: sandbox-ops-manager
+    vm_name: sandbox-ops-manager-vm
+    vpc_subnet: sandbox-management-subnet
+    zone: us-central1-a

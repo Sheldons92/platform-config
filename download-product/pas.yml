@@ -6,3 +6,6 @@ product-version-regex: ^2\.8\.\d+$
 blobstore-bucket: ((bucket))
 stemcell-iaas: google
 stemcell-heavy: false
+gcs-project-id: pal4pe-1109-daniel-sheldon
+gcs-service-account-json: ((json_key))
+blobstore-stemcell-path: pas-stemcell

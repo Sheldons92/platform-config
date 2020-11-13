@@ -1,7 +1,7 @@
 ---
 username: admin
 password: ((opsman-password))
-
+decryption-passphrase: ((opsman-decryption-passphrase))
 # Optional
 # http-proxy-url:           # proxy for outbound HTTP network traffic
 # https-proxy-url:          # proxy for outbound HTTPS network traffic

@@ -52,10 +52,10 @@ properties-configuration:
     auth_json: ((opsman-service-account-key))
     default_deployment_tag: sandbox-vms
     project: pal4pe-1109-daniel-sheldon
+  security_configuration:
+    generate_vm_passwords: true
+    trusted_certificates: ""
 resource-configuration:
   compilation:
     instance_type:
       id: xlarge.disk
-security_configuration:
-  generate_vm_passwords: true
-  trusted_certificates: ""
